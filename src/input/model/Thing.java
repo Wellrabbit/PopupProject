@@ -49,7 +49,7 @@ public class Thing
 	 * @param weight Changes double weight variable
 	 * @param age Changes int age variable
 	 */
-	public Thing(String name, double weight, int age)
+	public Thing(String name, int age, double weight)
 	{
 		this.name = name;
 		this.weight = weight;
