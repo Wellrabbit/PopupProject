@@ -2,21 +2,25 @@ package input.model;
 
 public class Thing
 {
-	private String name;
-	private int age;
-	private double weight;
+	private String monsterName;
+	private int monsterEyes;
+	private int monsterEars;
+	private double monsterHair;
+	private double monsterLegs;
 
 
 	public Thing ()
 	{
-	age = -99;
-	weight = .000000000001;
-	name = "";
+	monsterName = "";
+	monsterEyes = -12345678;
+	monsterEars = 12345678;
+	monsterHair = -.99999999;
+	monsterLegs= -.99999999;
 			
 	}
-	public String getName()
+	public String getmonsterName()
 	{ 
-		return name;
+		return monsterName;
 	}
 	
 	public int getAge()
